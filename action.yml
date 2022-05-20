@@ -6,6 +6,9 @@ inputs:
     type: 'labeled | now'
     required: false
     default: 'labeled'
+  github_repository:
+    description: 'Githib repository, including owner like owner/repository, default is curent repository'
+    required: false
   label_name:
     description: 'PR Label name'
     required: false
